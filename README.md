@@ -10,14 +10,14 @@ Para clonar un repositorio completo se debe de tomar el URL HTTPS de el reposito
 git clone <link-del-repositorio>
 ```
 ## Crear nuevos branches
-Se puede usar el comando "gir branch" para crear, listar y eliminar branches:
+Se puede usar el comando "git branch" para crear, listar y eliminar branches:
 
 ### Crear una nueva branch
 ```
 git branch <nombre-del-branch>
 ```
 
-### Enlistar los branch existentes locales y remotos
+### Enlistar los branch locales y remotos
 
 ```
 git branch -a
@@ -30,4 +30,5 @@ git branch --list
 ```
 git branch -d <nombre-del-branch>
 ```
-
+## Git checkout
+Para trabajar en algun branch en especifico, revisar un
